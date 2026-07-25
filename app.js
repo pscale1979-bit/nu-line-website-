@@ -84,7 +84,7 @@ function closeContents(){
 }
 function escapeHTML(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 
-$("openBook").onclick=()=>openReader(0,false);
+$("openBook").onclick=()=>openReader(1,false);
 $("prevBtn").onclick=$("prevSmall").onclick=prev;
 $("nextBtn").onclick=$("nextSmall").onclick=next;
 $("contentsBtn").onclick=openContents;
