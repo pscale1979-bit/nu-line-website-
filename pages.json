@@ -1,0 +1,134 @@
+[
+  {
+    "number": "cover",
+    "title": "Cover",
+    "src": "01-cover.jpg",
+    "portrait": true
+  },
+  {
+    "number": "02",
+    "title": "A Commitment to Quality",
+    "src": "02-02.jpg",
+    "portrait": false
+  },
+  {
+    "number": "03",
+    "title": "Built on Experience",
+    "src": "03-03.jpg",
+    "portrait": false
+  },
+  {
+    "number": "04",
+    "title": "Trusted Architectural Glazing Specialists",
+    "src": "04-04.jpg",
+    "portrait": false
+  },
+  {
+    "number": "05",
+    "title": "Precision in Every Detail",
+    "src": "05-05.jpg",
+    "portrait": false
+  },
+  {
+    "number": "06",
+    "title": "Sheerline — Patented Corner Construction",
+    "src": "06-06.jpg",
+    "portrait": false
+  },
+  {
+    "number": "07",
+    "title": "Sheerline — Consistent System Architecture",
+    "src": "07-07.jpg",
+    "portrait": false
+  },
+  {
+    "number": "08",
+    "title": "HYLINE — Minimalist Architecture",
+    "src": "08-08.jpg",
+    "portrait": false
+  },
+  {
+    "number": "09",
+    "title": "HYLINE — Minimal Frame, Maximum Vision",
+    "src": "09-09.jpg",
+    "portrait": false
+  },
+  {
+    "number": "10",
+    "title": "Architectural Glass Balustrades",
+    "src": "10-10.jpg",
+    "portrait": false
+  },
+  {
+    "number": "11",
+    "title": "Glass Balustrades — Design Without Compromise",
+    "src": "11-11.jpg",
+    "portrait": false
+  },
+  {
+    "number": "12",
+    "title": "Residence 9",
+    "src": "12-12.jpg",
+    "portrait": false
+  },
+  {
+    "number": "13",
+    "title": "Residence 9 — Heritage Detailing",
+    "src": "13-13.jpg",
+    "portrait": false
+  },
+  {
+    "number": "14",
+    "title": "Residence 9 — Crafted to Replicate",
+    "src": "14-14.jpg",
+    "portrait": false
+  },
+  {
+    "number": "15",
+    "title": "Residence 9 in Practice",
+    "src": "15-15.jpg",
+    "portrait": false
+  },
+  {
+    "number": "16",
+    "title": "Residence 9 — Beautiful on Every Home",
+    "src": "16-16.jpg",
+    "portrait": false
+  },
+  {
+    "number": "17",
+    "title": "Why Specify Residence 9?",
+    "src": "17-17.jpg",
+    "portrait": true
+  },
+  {
+    "number": "18",
+    "title": "NÜ-LINE Projects",
+    "src": "18-18.jpg",
+    "portrait": false
+  },
+  {
+    "number": "19",
+    "title": "Working With Us",
+    "src": "19-19.jpg",
+    "portrait": false
+  },
+  {
+    "number": "20",
+    "title": "Our Commitment",
+    "src": "20-20.jpg",
+    "portrait": false
+  },
+  {
+    "number": "21",
+    "title": "Contact Us",
+    "src": "21-21.jpg",
+    "portrait": false
+  },
+  {
+    "number": "22",
+    "title": "Thank You",
+    "src": "22-22.jpg",
+    "portrait": true
+  }
+]
