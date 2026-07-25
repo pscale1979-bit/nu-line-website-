@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080c0d">
+  <meta name="description" content="NÜ-LINE Architectural Glazing — Edition I. Premium architectural glazing for architects, contractors, developers and private clients.">
+  <title>NÜ-LINE Architectural Glazing | Edition I — Version 2</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/pages/01-cover.jpg">
+  <link rel="preload" as="image" href="assets/pages/01-cover.jpg">
+  <link rel="stylesheet" href="styles.css?v=2.0.0">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#cover" aria-label="NÜ-LINE home">
+      <span>NÜ-LINE</span>
+      <small>ARCHITECTURAL GLAZING</small>
+    </a>
+    <div class="top-actions">
+      <button id="contentsBtn" class="text-button" type="button">Contents</button>
+      <a class="text-button" href="mailto:paul@nu-lineglazing.co.uk?subject=NÜ-LINE%20project%20enquiry">Begin a project</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="landing" class="landing" aria-label="Edition I cover">
+      <img class="cover-image" src="assets/pages/01-cover.jpg" alt="NÜ-LINE Architectural Glazing Edition I cover">
+      <div class="cover-shade"></div>
+      <div class="landing-content">
+        <p class="eyebrow">NÜ-LINE ARCHITECTURAL GLAZING</p>
+        <h1>Edition I</h1>
+        <p>A digital architectural glazing portfolio.</p>
+        <button id="openBook" class="primary-button" type="button">
+          <span>Open Edition I</span><span aria-hidden="true">→</span>
+        </button>
+      </div>
+      <p class="swipe-hint">Swipe, use the arrows, or tap the page edges</p>
+    </section>
+
+    <section id="reader" class="reader" hidden aria-label="Digital brochure reader">
+      <div class="book-shell">
+        <button id="prevBtn" class="edge-button edge-left" aria-label="Previous page">‹</button>
+        <div id="book" class="book" tabindex="0">
+          <div id="pageStage" class="page-stage">
+            <img id="pageImage" class="page-image" alt="">
+            <div id="pageTurn" class="page-turn" aria-hidden="true"></div>
+          </div>
+        </div>
+        <button id="nextBtn" class="edge-button edge-right" aria-label="Next page">›</button>
+      </div>
+
+      <div class="reader-controls">
+        <div class="progress-wrap">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <div class="control-row">
+          <button id="prevSmall" class="round-button" type="button" aria-label="Previous page">←</button>
+          <div class="page-meta">
+            <strong id="pageNumber">Cover</strong>
+            <span id="pageTitle">Cover</span>
+          </div>
+          <button id="nextSmall" class="round-button" type="button" aria-label="Next page">→</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside id="contents" class="contents" aria-hidden="true">
+    <div class="contents-head">
+      <div>
+        <p class="eyebrow">EDITION I</p>
+        <h2>Contents</h2>
+      </div>
+      <button id="closeContents" class="close-button" aria-label="Close contents">×</button>
+    </div>
+    <div id="thumbGrid" class="thumb-grid"></div>
+  </aside>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <noscript>This digital brochure requires JavaScript.</noscript>
+  <script src="app.js?v=2.0.0"></script>
+</body>
+</html>
