@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080c0d">
+  <meta name="description" content="NÜ-LINE Architectural Glazing — Edition I. Premium architectural glazing for architects, contractors, developers and private clients.">
+  <title>NÜ-LINE Architectural Glazing | Edition I — Version 3.1</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="01-cover.jpg?v=3.1.0">
+  <link rel="preload" as="image" href="01-cover.jpg?v=3.1.0">
+  <link rel="stylesheet" href="styles.css?v=3.1.0">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#cover" aria-label="NÜ-LINE home">
+      <span>NÜ-LINE</span>
+      <small>ARCHITECTURAL GLAZING</small>
+    </a>
+    <div class="top-actions">
+      <button id="contentsBtn" class="text-button" type="button">Contents</button>
+      <button id="contactBtn" class="text-button" type="button">Contact</button>
+      <button id="beginProjectBtn" class="text-button project-link" type="button">Begin a project</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="landing" class="landing" aria-label="Edition I cover">
+      <img class="cover-image" src="01-cover.jpg?v=3.1.0" alt="NÜ-LINE Architectural Glazing Edition I cover">
+      <div class="cover-shade"></div>
+      <div class="landing-content">
+        <p class="eyebrow">NÜ-LINE ARCHITECTURAL GLAZING</p>
+        <h1>Edition I</h1>
+        <p>A digital architectural glazing portfolio.</p>
+        <button id="openBook" class="primary-button" type="button">
+          <span>Open Edition I</span><span aria-hidden="true">→</span>
+        </button>
+      </div>
+      <p class="swipe-hint">Swipe, use the arrows, or tap the page edges</p>
+    </section>
+
+    <section id="reader" class="reader" hidden aria-label="Digital brochure reader">
+      <div class="book-shell">
+        <button id="prevBtn" class="edge-button edge-left" aria-label="Previous page">‹</button>
+        <div id="book" class="book" tabindex="0">
+          <div id="pageStage" class="page-stage">
+            <img id="pageImage" class="page-image" alt="">
+            <div id="pageTurn" class="page-turn" aria-hidden="true"></div>
+          </div>
+        </div>
+        <button id="nextBtn" class="edge-button edge-right" aria-label="Next page">›</button>
+      </div>
+
+      <div class="reader-controls">
+        <div class="progress-wrap">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <div class="control-row">
+          <button id="prevSmall" class="round-button" type="button" aria-label="Previous page">←</button>
+          <div class="page-meta">
+            <strong id="pageNumber">Cover</strong>
+            <span id="pageTitle">Cover</span>
+          </div>
+          <button id="nextSmall" class="round-button" type="button" aria-label="Next page">→</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside id="contents" class="contents" aria-hidden="true">
+    <div class="contents-head">
+      <div>
+        <p class="eyebrow">EDITION I</p>
+        <h2>Contents</h2>
+      </div>
+      <button id="closeContents" class="close-button" aria-label="Close contents">×</button>
+    </div>
+    <div id="thumbGrid" class="thumb-grid"></div>
+  </aside>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <section id="contactPanel" class="contact-panel" aria-hidden="true" aria-labelledby="contactTitle">
+    <div class="contact-panel__inner">
+      <div class="contact-panel__head">
+        <div>
+          <p class="eyebrow">START A CONVERSATION</p>
+          <h2 id="contactTitle">Tell us about your project.</h2>
+          <p>Share the key details and NÜ-LINE will review your enquiry personally.</p>
+        </div>
+        <button id="closeContact" class="close-button" type="button" aria-label="Close contact form">×</button>
+      </div>
+
+      <form id="enquiryForm" class="enquiry-form" novalidate>
+        <div class="form-grid">
+          <label><span>Name *</span><input name="name" autocomplete="name" required maxlength="120"></label>
+          <label><span>Company</span><input name="company" autocomplete="organization" maxlength="160"></label>
+          <label><span>Email *</span><input name="email" type="email" autocomplete="email" required maxlength="180"></label>
+          <label><span>Telephone *</span><input name="phone" type="tel" autocomplete="tel" required maxlength="50"></label>
+          <label class="full"><span>Project address / location</span><input name="project_location" autocomplete="street-address" maxlength="240"></label>
+          <label><span>Project type</span>
+            <select name="project_type">
+              <option value="">Select project type</option>
+              <option>New build</option><option>Extension</option><option>Renovation</option>
+              <option>Heritage / conservation</option><option>Commercial</option><option>Other</option>
+            </select>
+          </label>
+          <label><span>Estimated budget</span>
+            <select name="budget">
+              <option value="">Select budget</option>
+              <option>Under £25,000</option><option>£25,000–£50,000</option>
+              <option>£50,000–£100,000</option><option>£100,000–£250,000</option>
+              <option>£250,000+</option><option>Not confirmed</option>
+            </select>
+          </label>
+          <label><span>Required timescale</span><input name="timescale" placeholder="e.g. Autumn 2026" maxlength="100"></label>
+          <fieldset class="full systems-fieldset">
+            <legend>Systems of interest</legend>
+            <div class="systems-grid">
+              <label><input type="checkbox" name="systems" value="HYLINE"><span>HYLINE</span></label>
+              <label><input type="checkbox" name="systems" value="Sheerline"><span>Sheerline</span></label>
+              <label><input type="checkbox" name="systems" value="Residence 9"><span>Residence 9</span></label>
+              <label><input type="checkbox" name="systems" value="Rooflights"><span>Rooflights</span></label>
+              <label><input type="checkbox" name="systems" value="Glass Balustrades"><span>Glass Balustrades</span></label>
+              <label><input type="checkbox" name="systems" value="Architectural Glass"><span>Architectural Glass</span></label>
+            </div>
+          </fieldset>
+          <label class="full"><span>Project details *</span><textarea name="project_details" rows="6" required maxlength="4000" placeholder="Tell us about the project, approximate sizes, design intent and any drawings or specifications available."></textarea></label>
+          <label class="consent full"><input name="consent" type="checkbox" required><span>I agree that NÜ-LINE may use these details to respond to my project enquiry. *</span></label>
+          <label class="website-trap" aria-hidden="true"><span>Website</span><input name="website" tabindex="-1" autocomplete="off"></label>
+        </div>
+        <div class="form-footer">
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+          <button id="submitEnquiry" class="primary-button submit-button" type="submit"><span>Send project enquiry</span><span aria-hidden="true">→</span></button>
+        </div>
+      </form>
+
+      <div id="enquirySuccess" class="enquiry-success" hidden>
+        <p class="eyebrow">ENQUIRY RECEIVED</p>
+        <h3>Thank you.</h3>
+        <p>Your project enquiry has been sent securely to NÜ-LINE and added to our enquiry register.</p>
+        <p class="reference-line">Reference: <strong id="enquiryReference"></strong></p>
+        <button id="closeSuccess" class="primary-button" type="button"><span>Return to Edition I</span><span aria-hidden="true">→</span></button>
+      </div>
+    </div>
+  </section>
+
+  <noscript>This digital brochure requires JavaScript.</noscript>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js?v=3.1.0"></script>
+  <script src="app.js?v=3.1.0"></script>
+</body>
+</html>
